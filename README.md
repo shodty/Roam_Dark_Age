@@ -1,6 +1,6 @@
 #Roam Darkage
 
-![](images/Daily.png)
-![](images/Table.png)
-![](images/All_Pages_Section.png)
-![](images/Graph_Overview.png)
+![](Images/Daily.png)
+![](Images/Table.png)
+![](Images/All_Pages_Section.png)
+![](Images/Graph_Overview.png)
