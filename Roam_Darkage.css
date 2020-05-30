@@ -32,6 +32,14 @@
 /* sidebar text color */
 .page, .log-button, .starred-pages-wrapper {
     color: #c3bca8 !important;
+    transition: color .3s ease;
+}
+
+.page:hover, .log-button:hover {
+    color: #ff6f00 !important;
+    text-decoration: none !important;
+    transition: color .3s ease;
+    background: transparent;
 }
 
 .roam-body .roam-app {
@@ -46,13 +54,13 @@ h1, h2, h3 {
 /* main link coloring + hover */
 .rm-page-ref-link-color, a {
     color: #ff9500;
-    transition: color .2s ease;
+    transition: color .3s ease;
 }
 
 .rm-page-ref-link-color:hover, a:focus, a:hover {
     color: #ff6f00 !important;
     text-decoration: none !important;
-    transition: color .2s ease;
+    transition: color .3s ease;
 }
 
 /* remove underlining on links */
@@ -202,13 +210,13 @@ code {
 .rm-page-ref-tag {
  
     color: #3db5e1 !important;
-    transition: color .2s ease;
+    transition: color .3s ease;
 }
 
 .rm-page-ref-tag:hover {
     color: #ee6b00 !important;
     text-decoration: none;
-    transition: color .2s ease;
+    transition: color .3s ease;
 }
 
 
@@ -221,13 +229,13 @@ code {
 
 .rm-page-ref-namespace-color {
     color: #65bf38;
-    transition: color .2s ease;
+    transition: color .3s ease;
 }
 
 .rm-page-ref-namespace-color:hover {
-    color: #bcff9a;
+    color: #ee6b00;
     text-decoration: none;
-    transition: color .2s ease;
+    transition: color .3s ease;
 }
 
 
