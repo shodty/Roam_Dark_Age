@@ -29,8 +29,9 @@
 /*                              */
 /*//////////////////////////////*/
 
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
-    color: #9eadb9;
+/* sidebar text color */
+.page, .log-button, .starred-pages-wrapper {
+    color: #c3bca8 !important;
 }
 
 .roam-body .roam-app {
@@ -39,7 +40,7 @@
 }
 
 h1, h2, h3 {
-    color: #b49d7d !important;
+    color: #da844f !important;
 }
 
 /* main link coloring + hover */
@@ -273,7 +274,13 @@ code {
     background: #0000001c;
 }
 
+.bp3-menu-item-label {
+    color: #ffffffc7 !important;
+}
 
+.bp3-icon-standard {
+    color: #404040 !important;
+}
 
 /*////////////////////////*/
 /*                        */
