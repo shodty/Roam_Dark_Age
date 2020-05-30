@@ -8,3 +8,4 @@
 ![](Images/Graph.png)
 ![](Images/Graph_Overview.png)
 ![](Images/Daily.png)
+![](Images/FullPage.png)
