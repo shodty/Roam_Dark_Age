@@ -260,6 +260,12 @@ code {
     color: #b49d7d !important
 }
 
+.bp3-text-overflow-ellipsis a:hover {
+    color: #ee6b00 !important;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
 /* Title Header */
 .bp3-text-overflow-ellipsis, .rm-pages-sort-header {
     color: #ff9500;
