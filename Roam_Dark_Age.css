@@ -150,11 +150,11 @@ span {
 /*////////////////////////////////*/
 
 .roam-article {
-    width: 800px;
+    width: 960px;
 }
 
 .roam-block-container {
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .rm-block-text {
@@ -206,7 +206,7 @@ span {
 
 .roam-highlight {
     color: #d8dadb;
-    background-color: #488244;
+    background-color: #3b5e39;
 }
 
 .block-highlight-yellow {
@@ -426,7 +426,9 @@ code {
     color: red !important;
 }
 
-
+.bp3-popover-content .bp3-button {
+    background: #ffffff82 !important;
+}
 
 /*////////////////////////////////*/
 /*                                */
@@ -490,3 +492,34 @@ span[data-link-title="TODO"] .rm-page-ref {
     color: #00ee6b;
 }
 
+/*//////////////////////////*/
+/*                          */
+/*         Pomodoro         */
+/*    thx to @Mappletons    */
+/*                          */
+/*//////////////////////////*/
+
+
+.dont-focus-block.bp3-button, .rm-pomodoro {
+  background: #ff6956 !important;
+  color: #fff !important;
+  font-family: Courier New; 
+  padding: 4px 14px;
+  line-height: 2em;
+  font-weight: 600;
+  border-radius: 2em;
+  border: 1px solid #ed5845;
+  transition:  background .2s ease, border .3s ease;
+}
+
+
+.dont-focus-block.bp3-button:hover {
+    background: #5c9438 !important;
+    border: 1px solid #2f512c;
+    transition:  background .2s ease, border .3s ease;
+}
+
+
+.rm-pomodoro::first-letter {
+  margin-right: 8px;
+}
