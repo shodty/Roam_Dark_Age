@@ -117,6 +117,9 @@ span {
     color: white !important
 }
 
+.rm-menu-item:hover {
+    background: #3b3b3b !important;
+}
 
 
 /*//////////////*/
@@ -143,7 +146,10 @@ span {
     background-color: #488244;
 }
 
+.block-highlight-yellow {
+    background: #6e6b5e8c !important;
 
+}
 
 /*///////////////////////////////////*/
 /*                                   */
@@ -279,13 +285,19 @@ code {
 /*                               */
 /*///////////////////////////////*/
 
-
-.bp3-popover-content, .bp3-menu {
+.bp3-popover-content, .bp3-menu, .bp3-elevation-3 {
     background-color: #464545 !important;
 }
 
-.bp3-menu a:hover {
+
+.bp3-menu a:hover, .bp3-elevation-3 .dont-unfocus-block:hover  {
     background: #0000001c;
+}
+
+.bp3-elevation-3 .dont-unfocus-block:hover .bp3-text-overflow-ellipsis {
+    color: #ee6b00 !important;
+    text-decoration: none;
+    transition: color .3s ease;
 }
 
 .bp3-menu-item-label {
