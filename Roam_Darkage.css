@@ -18,10 +18,15 @@
 
 .rm-reference-item {
     background-color: #121212;
-    background-color: rgba(255, 255, 255, .08);
+    background-color: rgba(255, 255, 255, 0);
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b49d7d;
 }
 
-
+.rm-level1 {
+    margin-bottom: 20px;
+}
 
 /*//////////////////////////////*/
 /*                              */
@@ -40,6 +45,26 @@
     text-decoration: none !important;
     transition: color .3s ease;
     background: transparent;
+}
+
+.bp3-button[class*="bp3-icon-"]::before {
+    color: #75c6a3 !important;
+    background: transparent;
+}
+
+
+
+.bp3-button[class*="bp3-icon-"]:hover, .bp3-button[class*="bp3-icon-"]:hover::before {
+    background: transparent;
+    transition: background .1s ease;
+    transition: color .3s ease;
+    color: #00f800 !important;
+}
+
+
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    color: #f5f8fa;
+    background-color: #10161a00;
 }
 
 .roam-body .roam-app {
@@ -70,12 +95,12 @@ span {
 
 
 /* path text color for linked references */
-.parent-path-wrapper {
+.parent-path-wrapper, em, strong {
     color: #b49d7d;
 }
 
 /* block reference */
-.roam-block .rm-block-ref {
+.roam-block .rm-block-ref, span[style*="color: red"] {
     background-color: transparent !important;
     color: #e1c39a;
     border-bottom: 1px solid rgba(255,255,255,.2)
@@ -86,6 +111,7 @@ span {
     border-bottom: 1px solid rgba(255, 152, 0, .6);
 }
 
+
 /*////////////////////////////////*/
 /*                                */
 /*     Container Sizing Fixes     */
@@ -93,13 +119,16 @@ span {
 /*////////////////////////////////*/
 
 .roam-article {
-    width: 1200px;
+    width: 1150px;
 }
 
 .roam-block-container {
     max-width: 1000px;
 }
 
+.rm-block-text {
+    max-width: 640px;
+}
 
 
 /*///////////////////*/
@@ -326,14 +355,45 @@ code {
 /*////////////////////////*/
 
 .roam-block .bp3-button {
-    background-color: #464545 !important;
-    color: white !important;
+    background-color: transparent !important;
     text-transform: uppercase;
     margin-right: 5px;
 }
 
-.roam-block .bp3-button:hover {
-    background-color: #285d00 !important;
+.bp3-button[class*="bp3-icon-"]::before, .bp3-icon-filter, .bp3-button.bp3-minimal.bp3-small {
+    color: #75c6a3 !important;
+    background: transparent !important;
+}
+
+.bp3-button[class*="bp3-icon-"]:hover, .bp3-button[class*="bp3-icon-"]:hover::before, .bp3-icon-filter:hover, .bp3-button.bp3-minimal:hover {
+    background: transparent !important;
+    transition: background .1s ease, color .3s ease;
+    color: #00f800 !important;
+}
+
+.block-ref-count-button {
+    color: #75c6a3 !important;
+    background: transparent;
+
+    border: 1px solid #75c6a3;
+    border-radius: 100px;
+    z-index: 1000;
+    transition: color .3s ease, border .3s ease;
+    opacity: 1;
+}
+
+.block-ref-count-button:hover {
+    color: #00f800 !important;
+    background: transparent !important;
+    border: 1px solid #00f800;
+    border-radius: 100px;
+    z-index: 1000;
+    transition: color .3s ease,  border .3s ease;
+}
+
+
+.bp3-icon.bp3-icon-filter[style*="color: rgb(168, 42, 42);"] {
+    color: red !important;
 }
 
 
