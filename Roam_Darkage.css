@@ -16,6 +16,10 @@
     background-color: inherit !important;
 }
 
+.roam-block {
+    min-height: calc(1em + 8px);
+}
+
 .rm-reference-item {
     background-color: #121212;
     background-color: rgba(255, 255, 255, 0);
@@ -28,6 +32,27 @@
     margin-bottom: 20px;
 }
 
+.roam-bullet-closed {
+    background-color: #b49d7d;
+}
+
+.rm-reference-container {
+    border-top: 5px double #b49d7d;
+    padding-top: 15px;
+}
+
+.rm-caret, .bp3-icon-standard {
+    color: #fffc !important;
+    opacity: 1 !important;
+}
+
+.bp3-icon-standard:hover {
+    color: #00f800 !important;
+}
+
+.bp3-menu .bp3-icon-standard{
+    color: #2f2f2f !important;
+}
 /*//////////////////////////////*/
 /*                              */
 /*     General Text Styling     */
@@ -102,14 +127,20 @@ span {
 /* block reference */
 .roam-block .rm-block-ref, span[style*="color: red"] {
     background-color: transparent !important;
-    color: #e1c39a;
-    border-bottom: 1px solid rgba(255,255,255,.2)
+    color: #e1c39a !important;
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    
 }
 
 .rm-block-ref:hover {
     background-color: transparent !important;
     border-bottom: 1px solid rgba(255, 152, 0, .6);
 }
+
+.check-container {
+    z-index: 1000;
+}
+
 
 
 /*////////////////////////////////*/
@@ -119,11 +150,11 @@ span {
 /*////////////////////////////////*/
 
 .roam-article {
-    width: 1150px;
+    width: 800px;
 }
 
 .roam-block-container {
-    max-width: 1000px;
+    max-width: 800px;
 }
 
 .rm-block-text {
@@ -216,8 +247,9 @@ code {
 }
 
 .CodeMirror-gutters {
-    border-right: 1px solid #666;
-    background-color: #f7f7f7;
+    padding-right: 3px;
+    border-right: 1px solid #676767;
+    background-color: transparent;
     white-space: nowrap;
 }
 
@@ -340,9 +372,7 @@ code {
     color: #ffffffc7 !important;
 }
 
-.bp3-icon-standard {
-    color: #404040 !important;
-}
+
 
 .bp3-elevation-3 .dont-unfocus-block[style*="background-color: rgb(213, 218, 223);"], .bp3-popover-content .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] {
     background-color: #0000001c !important;
@@ -425,13 +455,38 @@ code {
 /*/////////////////////////////*/
 
 .kanban-column-container, .kanban-board {
-    background-color: #2b2a2a
+    background-color: #2b2a2a;
+
+}
+
+.kanban-title {
+    color: #ee6b00;
 }
 
 .kanban-column {
-    background-color: #3e3e3e
+    background-color: #2b2a2a
 }
 
 .kanban-card {
-    background-color: #595959
+    background-color: #5959591c
 }
+
+span[data-link-title="DONE"] .rm-page-ref {
+    color: #00ee6b !important;
+}
+
+span[data-link-title="TODO"] .rm-page-ref {
+    color: #ee4f00 !important;
+}
+
+span[data-link-title="DOING"] .rm-page-ref {
+    color: #ffa900 !important;
+}
+
+span[data-link-title="TODO"] .rm-page-ref {
+    color: #ee4f00 !important;
+}
+.kanban-card:hover {
+    color: #00ee6b;
+}
+
