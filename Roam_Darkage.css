@@ -5,7 +5,7 @@
 /*/////////////////////////////////////*/
 
 .roam-body-main {
-    background-color: #282c34;
+    background-color: #26272a;
 }
 
 #right-sidebar, .roam-topbar, .roam-sidebar-container {
@@ -169,7 +169,7 @@ code {
 }
 
 .CodeMirror {
-    background-color: #282c34 !important;
+    background-color: #26272a !important;
     color: #dbba96;
 }
 
@@ -178,7 +178,7 @@ code {
 }
 
 .CodeMirror-gutter-elt, .CodeMirror-gutter {
-    background-color: #282c34 !important;
+    background-color: #26272a !important;
     color: #666;
 }
 
