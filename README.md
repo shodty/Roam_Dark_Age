@@ -4,12 +4,24 @@ I'm not too experienced with this stuff, but this the theme I developed for myse
 
 Thanks!
 shodty
+
+## Main Styling
 ![](Images/Main.png)
-![](Images/Sidebar.png)
-![](Images/Leftbar.png)
-![](Images/Table.png)
-![](Images/All_Pages_Section.png)
-![](Images/Graph2.png)
-![](Images/Graph_Overview.png)
+# Daily Page
 ![](Images/Daily.png)
+# Full Page Look
 ![](Images/FullPage2.png)
+## Side bar
+![](Images/Sidebar.png)
+## Left Bar
+![](Images/Leftbar.png)
+## Article
+![](Images/Article.png)
+## Table
+![](Images/Table.png)
+## All Pages Section
+![](Images/All_Pages_Section.png)
+## Graph
+![](Images/Graph2.png)
+## Graph Overview
+![](Images/Graph_Overview.png)
