@@ -185,6 +185,9 @@ span {
     color: #65bf38 !important;
 }
 
+.bp3-input-group input {
+    color: black !important;
+}
 /*//////////////*/
 /*              */
 /*     ToDos    */
@@ -339,9 +342,13 @@ code {
     background-color: #26272a
 }
 
+.title-children-text {
+    color: #d0d0d0
+}
+
 /* Page Name */
 .bp3-text-overflow-ellipsis a {
-    color: #b49d7d !important
+    color: #c3bca8 !important
 }
 
 .bp3-text-overflow-ellipsis a:hover {
@@ -358,7 +365,7 @@ code {
 /* Mentions Pill */
 .rm-clickable-pill, .rm-clickable-pill.level1-pill, .rm-clickable-pill.level2-pill, .rm-clickable-pill.level3-pill, .rm-clickable-pill.level4-pill {
     color: #26272a;
-    background: #75c6a3;
+    background: #ffbb5c;
     opacity: 1 !important;
     padding: 2px 10px !important;
     width: 42px;
@@ -366,11 +373,11 @@ code {
 }
 
 .rm-clickable-pill.level1-pill {
-    background: #42bc88;
+    background: #f7a22b;
 }
 
 .rm-clickable-pill.level3-pill {
-    background: #00ff91;
+    background: #ff7b00;
 }
 
 .rm-clickable-pill.empty-pill {
@@ -379,7 +386,7 @@ code {
 }
 
 .rm-clickable-pill:hover {
-    background: #00f800;
+    background: #ff6f00;
 }
 
 /* Checkbox */

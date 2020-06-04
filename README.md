@@ -1,6 +1,6 @@
-# Roam Dark Age
+# Dark Age
 
-This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired.
+This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired. I am updating this pretty regularly, and intend to organize and comment everything so it is more easily adaptable should something not work for you!
 
 [Copy the CSS from here!](https://github.com/shodty/Roam_Dark_Age/blob/master/Roam_Dark_Age.css)
 
