@@ -4,9 +4,11 @@ This is the theme I developed for myself, as I tend to work late at night and pr
 
 [Copy the CSS from here!](https://github.com/shodty/Roam_Dark_Age/blob/master/Roam_Dark_Age.css)
 
+
+Instructions!
 [Applying custom themes in Roam Research](https://www.youtube.com/watch?v=UY-sAC2eGyI)
 
-I hope it works well, I use the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Chrome Extension to override the page css. 
+Another method is using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Chrome Extension to override the page css. 
 
 Please feel free to reach out if you have any questions/suggestions/requests!
 
