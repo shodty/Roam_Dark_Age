@@ -273,7 +273,17 @@ code {
     background-color: #655959 !important;
 }
 
+.cm-qualifier {
+    color: #ff9500 !important;
+}
 
+.cm-atom, .cm-builtin {
+    color: #c3bca8 !important;
+}
+
+.cm-comment {
+    color: #ffffff54 !important;
+}
 
 /*/////////////////////////*/
 /*                         */
