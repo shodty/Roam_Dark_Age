@@ -1,6 +1,10 @@
 # Roam Dark Age
 
-This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired. I hope it works well, I use the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Chrome Extension to override the page css. 
+This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired.
+
+[Applying custom themes in Roam Research](https://www.youtube.com/watch?v=UY-sAC2eGyI)
+
+I hope it works well, I use the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Chrome Extension to override the page css. 
 
 Please feel free to reach out if you have any questions/suggestions/requests!
 
