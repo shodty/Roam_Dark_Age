@@ -1,3 +1,30 @@
+/*////////////////////////////////*/
+/*                                */
+/*     Container Sizing Fixes     */
+/*                                */
+/*////////////////////////////////*/
+.roam-center div:first-child {
+    padding-right: calc((100% - 900px) / 2) !important;
+}
+
+
+
+.roam-block-container {
+    max-width: calc(1024px - 80px);
+}
+.roam-center .roam-article .rm-block-text {
+    max-width: 680px;
+}
+
+#right-sidebar #roam-right-sidebar-content .rm-block-text {
+     max-width: 680px;
+}
+
+.roam-block {
+    min-height: calc(1em + 8px);
+}
+
+
 /*/////////////////////////////////////*/
 /*                                     */
 /*     General Background Coloring     */
@@ -90,6 +117,39 @@ a {
     transition: color .3s ease;
 }
 
+/* Interal Roam Links [[Roam]] & #Roam & #[[Roam]] */
+.rm-page-ref-tag, .rm-page-ref-link-color, .rm-ref-page-view-title a, .bp3-text-overflow-ellipsis a, .rm-pages-title-text strong {
+    color: #d9d9d9 !important;
+    font-weight: 700;
+    transition: color .3s ease;
+}
+
+.rm-page-ref-tag {
+	margin-right: 5px;
+}
+
+.rm-page-ref-tag:hover, .rm-pages-title-text strong:hover {
+    color: #ee6b00 !important;
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+h1.level1 a, h1.level2 a, h1.level3 a, h1.level4 a,
+h2.level1 a, h2.level2 a, h2.level3 a, h2.level4 a,
+h3.level1 a, h3.level2 a, h3.level3 a, h3.level4 a,
+h4.level1 a, h4.level2 a, h4.level3 a, h1.level4 a { 
+    color: #d9d9d9 !important;
+    font-weight: 600;
+}
+
+h1.level1 a:hover, h1.level2 a:hover, h1.level3 a:hover, h1.level4 a:hover,
+h2.level1 a:hover, h2.level2 a:hover, h2.level3 a:hover, h2.level4 a:hover,
+h3.level1 a:hover, h3.level2 a:hover, h3.level3 a:hover, h3.level4 a:hover,
+h4.level1 a:hover, h4.level2 a:hover, h4.level3 a:hover, h4.level4 a:hover { 
+    color: #ff6f00 !important;
+    font-weight: 600;
+}
+
 .rm-page-ref-link-color:hover, a:focus, a:hover {
     color: #ff6f00 !important;
     text-decoration: none !important;
@@ -120,15 +180,17 @@ span {
 .roam-block .rm-block-ref, span[style*="color: red"] {
     background-color: transparent !important;
     color: #e1c39a !important;
+    transition: color .3s ease, border .3s ease;
     border-bottom: 1px solid rgba(255,255,255,.2);
     
 }
 
 .rm-block-ref:hover {
     background-color: transparent !important;
+    color: #ff6f00 !important;
+    transition: color .3s ease, border .3s ease;
     border-bottom: 1px solid rgba(255, 152, 0, .6);
 }
-
 /*///////////////////////////*/
 /*                           */
 /*     Reference Section     */
@@ -271,28 +333,12 @@ code {
     color: #ffffff54 !important;
 }
 
-/*/////////////////////////*/
-/*                         */
-/*     Hashtag Styling     */
-/*                         */
-/*/////////////////////////*/
-
-/* Interal Roam Links [[Roam]] & #Roam & #[[Roam]] */
-.rm-page-ref-tag, .rm-page-ref-link-color, .rm-ref-page-view-title a, .bp3-text-overflow-ellipsis a, .rm-pages-title-text strong {
-    color: #d9d9d9 !important;
-    font-weight: 700;
-    transition: color .3s ease;
+.CodeMirror-widget div:first-child {
+    padding-right: 0px !important;
 }
 
-
-.rm-page-ref-tag {
-	margin-right: 5px;
-}
-
-.rm-page-ref-tag:hover, .rm-pages-title-text strong:hover {
-    color: #ee6b00 !important;
-    text-decoration: none;
-    transition: color .3s ease;
+.CodeMirror-widget, .codemirror-colorview, .codemirror-colorview-background {
+  	padding-right: 0px !important;
 }
 
 /*///////////////////////////*/
@@ -425,14 +471,9 @@ code {
 .bp3-button {
     background-color: transparent !important;
     text-transform: uppercase;
-    margin-right: 5px;
+    /*margin-right: 5px;*/
   	border: 0px !important;
 }
-
-button {
-    background: transparent !important;
-  }
-  
 
 .bp3-button[class*="bp3-icon-"]::before, .bp3-icon-filter, .bp3-button.bp3-minimal.bp3-small, .bp3-icon.bp3-icon-calendar.filter-icon, .bp3-icon.filter-icon.bp3-icon-eye-open, .bp3-button.bp3-icon-calendar {
     color: #75c6a3 !important;
@@ -578,49 +619,6 @@ span[data-link-title="TODO"] .rm-page-ref {
   margin-right: 8px;
 }
 
-/*////////////////////////////////*/
-/*                                */
-/*     Container Sizing Fixes     */
-/*                                */
-/*////////////////////////////////*/
-
-/* OMITTING container size edits until i optimize for mobile as well */
-
-/*.roam-article {
-  @media(min-width: 1200px) {
-    max-width: 960px;
-  }
-}
-
-.roam-block-container {
-  @media(min-width: 1200px) {
-    max-width: 900px;
-  }
-}
-
-.rm-block-text {
-  @media(min-width: 1200px) {
-    max-width: 640px;
-  }
-}
-
-.roam-article {
-    width: 960px !important;
-}
-
-.roam-block-container {
-    width: 900px !important;
-}
-
-.rm-block-text {
-    width: 640px !important;
-
-}*/
-
-.roam-block {
-    min-height: calc(1em + 8px);
-}
-
 /* NEW */
 
 /* Pro / Con Option tag coloring */
@@ -680,6 +678,10 @@ span[style*="background-color: rgb(235, 241, 245);"]:hover {
     transition: color .3s ease, border .3s ease;
 }
 
+button {
+  background: transparent !important;
+}
+
 /* diagram */
 svg[style*="background-color: rgb(86, 112, 134);"] {
     background: #26272a !important;
@@ -722,4 +724,13 @@ button[style*="border: none"] {
 
 div[style*="color: rgb(14, 90, 138);"] {
     color: #d9d9d9 !important;
+}
+
+/* chart */
+svg[style*="background-color: white;"] {
+    background: transparent  !important;
+}
+
+g circle {
+    fill: #ff6f00 !important;
 }
