@@ -4,41 +4,27 @@
 /*                                     */
 /*/////////////////////////////////////*/
 
+/* MAIN BACKGROUND COLOR */
 .roam-body-main {
     background-color: #26272a;
 }
 
+/* TOPBAR  & SIDEBAR BACKGROUND COLORS */
 #right-sidebar, .roam-topbar, .roam-sidebar-container {
     background-color: #1e1e1e !important;
 }
 
+.roam-topbar {
+  border-bottom: 0px;
+}
+
+/* BLOCKS BACKGRROUND */
 .roam-block > span > div {
     background-color: inherit !important;
 }
 
-.roam-block {
-    min-height: calc(1em + 8px);
-}
-
-.rm-reference-item {
-    background-color: #121212;
-    background-color: rgba(255, 255, 255, 0);
-    margin: 10px 0px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #b49d7d;
-}
-
-.rm-level1 {
-    margin-bottom: 20px;
-}
-
 .roam-bullet-closed {
     background-color: #b49d7d;
-}
-
-.rm-reference-container {
-    border-top: 5px double #b49d7d;
-    padding-top: 15px;
 }
 
 .rm-caret, .bp3-icon-standard {
@@ -53,57 +39,54 @@
 .bp3-menu .bp3-icon-standard{
     color: #2f2f2f !important;
 }
+
+#roam-sidebar-logo:hover {
+  background: transparent !important;
+}
+
+#roam-sidebar-logo img, #roam-sidebar-logo div span {
+  	transition: color .3s ease;
+}
+
+#roam-sidebar-logo:hover div span {
+  color: #ff6f00 !important;
+  transition: color .3s ease;
+}
+
 /*//////////////////////////////*/
 /*                              */
 /*     General Text Styling     */
 /*                              */
 /*//////////////////////////////*/
 
+/* Body text color */
+.roam-body .roam-app {
+    color: rgba(255, 255, 255, .70);
+}
+
 /* sidebar text color */
 .page, .log-button, .starred-pages-wrapper {
     color: #c3bca8 !important;
+  	font-weight: 600;
     transition: color .3s ease;
 }
 
+/* sidebar text hover color */
 .page:hover, .log-button:hover {
     color: #ff6f00 !important;
     text-decoration: none !important;
     transition: color .3s ease;
-    background: transparent;
+    background: transparent !important;
 }
 
-.bp3-button[class*="bp3-icon-"]::before {
-    color: #75c6a3 !important;
-    background: transparent;
-}
-
-
-
-.bp3-button[class*="bp3-icon-"]:hover, .bp3-button[class*="bp3-icon-"]:hover::before {
-    background: transparent;
-    transition: background .1s ease;
-    transition: color .3s ease;
-    color: #00f800 !important;
-}
-
-
-.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
-    color: #f5f8fa;
-    background-color: #10161a00;
-}
-
-.roam-body .roam-app {
-    color: #FFFFFF;
-    color: rgba(255, 255, 255, .60);
-}
-
+/* Heading/Header Colors, includes Date header on daily notes */
 h1, h2, h3 {
     color: #da844f !important;
 }
 
 /* main link coloring + hover */
-.rm-page-ref-link-color, a {
-    color: #ff9500;
+a {
+  	color: #66B5F4 !important;
     transition: color .3s ease;
 }
 
@@ -113,11 +96,20 @@ h1, h2, h3 {
     transition: color .3s ease;
 }
 
+/* ToDos color + Z-index Fix */
+.check-container input:checked ~ .checkmark {
+    background-color: #FFFFFF;
+    background-color: rgb(27, 159, 28);
+}
+
+.check-container {
+    z-index: 1000;
+}
+
 /* remove underlining on links */
 span {
     text-decoration: none !important;
 }
-
 
 /* path text color for linked references */
 .parent-path-wrapper, em, strong {
@@ -137,30 +129,29 @@ span {
     border-bottom: 1px solid rgba(255, 152, 0, .6);
 }
 
-.check-container {
-    z-index: 1000;
+/*///////////////////////////*/
+/*                           */
+/*     Reference Section     */
+/*                           */
+/*///////////////////////////*/
+
+/* Reference Background Color + Spacing Fixes */
+.rm-reference-item {
+    background-color: transparent;
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #b49d7d;
 }
 
-
-
-/*////////////////////////////////*/
-/*                                */
-/*     Container Sizing Fixes     */
-/*                                */
-/*////////////////////////////////*/
-
-.roam-article {
-    width: 960px;
+.rm-level1 {
+    margin-bottom: 20px;
 }
 
-.roam-block-container {
-    max-width: 900px;
+/* Reference Section Divider */
+.rm-reference-container {
+    border-top: 5px double #b49d7d;
+    padding-top: 15px;
 }
-
-.rm-block-text {
-    max-width: 640px;
-}
-
 
 /*///////////////////*/
 /*                   */
@@ -168,44 +159,36 @@ span {
 /*                   */
 /*///////////////////*/
 
-.bp3-input {
-    background: #FFFFFF;
+/* Search box background color */
+.bp3-input, .rm-pages-toolbar .toolbar-search-group .search-input {
     background: rgba(255, 255, 255, .05);
 }
 
+/* Search box placeholder text color */
+.bp3-input::placeholder {
+  color: rgba(255,255,255,0.33);
+}
+
+/* Search box input text color */
 .bp3-input-group input {
     color: white !important
 }
 
+/* Dropdown page menu hover highlight */
 .rm-menu-item:hover {
     background: #0000001c !important;
 }
 
+/* New page text color */
 .rm-new-page {
     color: #65bf38 !important;
 }
 
-.bp3-input-group input {
-    color: black !important;
-}
-/*//////////////*/
-/*              */
-/*     ToDos    */
-/*              */
-/*//////////////*/
-
-.check-container input:checked ~ .checkmark {
-    background-color: #FFFFFF;
-    background-color: rgb(27, 159, 28);
-}
-
-
-
-/*//////////////////*/
-/*                  */
-/*     Highlight    */
-/*                  */
-/*//////////////////*/
+/*///////////////////*/
+/*                   */
+/*     Highlights    */
+/*                   */
+/*///////////////////*/
 
 .roam-highlight {
     color: #d8dadb;
@@ -294,19 +277,23 @@ code {
 /*                         */
 /*/////////////////////////*/
 
-.rm-page-ref-tag {
- 
-    color: #3db5e1 !important;
+/* Interal Roam Links [[Roam]] & #Roam & #[[Roam]] */
+.rm-page-ref-tag, .rm-page-ref-link-color, .rm-ref-page-view-title a, .bp3-text-overflow-ellipsis a, .rm-pages-title-text strong {
+    color: #d9d9d9 !important;
+    font-weight: 700;
     transition: color .3s ease;
 }
 
-.rm-page-ref-tag:hover {
+
+.rm-page-ref-tag {
+	margin-right: 5px;
+}
+
+.rm-page-ref-tag:hover, .rm-pages-title-text strong:hover {
     color: #ee6b00 !important;
     text-decoration: none;
     transition: color .3s ease;
 }
-
-
 
 /*///////////////////////////*/
 /*                           */
@@ -314,8 +301,11 @@ code {
 /*                           */
 /*///////////////////////////*/
 
+/* Namespace text color [[roam/css]] when using CTRL+C CTRL+L || CMD+C CMD+L */
+
 .rm-page-ref-namespace-color {
     color: #65bf38;
+    font-weight: 600;
     transition: color .3s ease;
 }
 
@@ -325,29 +315,24 @@ code {
     transition: color .3s ease;
 }
 
-
-
 /*/////////////////////////////////////*/
 /*                                     */
 /*     "All Pages" Section Styling     */
 /*                                     */
 /*/////////////////////////////////////*/
 
+
+/* Row background color */
 .rm-pages-row {
-    background-color: #26272a !important;
+    background-color: transparent !important;
     border-bottom: 1px solid #ffffff42;
 }
 
 .rm-pages-row-highlight {
-    background-color: #26272a
+    background-color: transparent !important;
 }
 
 .title-children-text {
-    color: #d0d0d0
-}
-
-/* Page Name */
-.bp3-text-overflow-ellipsis a {
     color: #c3bca8 !important
 }
 
@@ -427,8 +412,6 @@ code {
     color: #ffffffc7 !important;
 }
 
-
-
 .bp3-elevation-3 .dont-unfocus-block[style*="background-color: rgb(213, 218, 223);"], .bp3-popover-content .rm-menu-item[style*="background-color: rgb(213, 218, 223);"] {
     background-color: #0000001c !important;
 }
@@ -507,10 +490,9 @@ div[style*="position: absolute; z-index: 1000; top: 0px; right: 0px; opacity: 0.
 }
 
 .rm-embed-edit {
+    margin-right: 5px;
     z-index: 1000;
 }
-
-
 
 /*/////////////////////////////*/
 /*                             */
@@ -561,7 +543,6 @@ span[data-link-title="TODO"] .rm-page-ref {
 /*                          */
 /*//////////////////////////*/
 
-
 .dont-focus-block.bp3-button, .rm-pomodoro {
   background: #ff6956 !important;
   color: #fff !important;
@@ -584,4 +565,45 @@ span[data-link-title="TODO"] .rm-page-ref {
 
 .rm-pomodoro::first-letter {
   margin-right: 8px;
+}
+
+/*////////////////////////////////*/
+/*                                */
+/*     Container Sizing Fixes     */
+/*                                */
+/*////////////////////////////////*/
+
+/*.roam-article {
+  @media(min-width: 1200px) {
+    max-width: 960px;
+  }
+}
+
+.roam-block-container {
+  @media(min-width: 1200px) {
+    max-width: 900px;
+  }
+}
+
+.rm-block-text {
+  @media(min-width: 1200px) {
+    max-width: 640px;
+  }
+}
+
+.roam-article {
+    width: 960px !important;
+}
+
+.roam-block-container {
+    width: 900px !important;
+}
+
+.rm-block-text {
+    width: 640px !important;
+
+}*/
+
+.roam-block {
+    min-height: calc(1em + 8px);
 }
