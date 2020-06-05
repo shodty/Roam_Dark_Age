@@ -607,3 +607,18 @@ span[data-link-title="TODO"] .rm-page-ref {
 .roam-block {
     min-height: calc(1em + 8px);
 }
+
+/* NEW */
+
+/* Pro / Con Option tag coloring */
+span[data-tag="pro"], span[data-tag="p"] {
+    color: #00ee6b !important;
+}
+
+span[data-tag="con"], span[data-tag="c"] {
+    color: #ee4f00 !important;
+}
+
+span[data-tag="choice"] {
+    color: #EEAA00 !important;
+}
