@@ -1,38 +1,42 @@
 :root {
-    --page-links: #d4d4d4;              /* [[Page Link]] */
-    --attributes-color: #b49d7d;        /* Attribute:: */
-    --external-links: #66B5F4;          /* https://www.google.com */
-    --links-hover: #ff6f00;             /* hover color of all links */
-    --hashtags: #77c691;                /* #hashtag #[[hash tags]] */
+    /* GLOBAL FONT */
+  	--global-font: 'Inter', sans-serif;  /* Global font (will granulate soon) */
+    /* TEXT COLORS */
+    --page-links: #D5A979;              /* [[Page Link]] */
+    --attributes-color: #CEA2A1;        /* Attribute:: */
+    --external-links: #53A6C8;          /* https://www.google.com */
+    --links-hover: #EE8443;             /* hover color of all links */
+    --hashtags: #FFFFFF84;                /* #hashtag #[[hash tags]] */
     --body-text: #FFFFFFB2;             /* general body text */
-    --italics-color: #b49d7d;           /* __italicized text__ */
-    --bold-color: #b49d7d;              /* **bolded text** */
+    --italics-color: #FFFFFFB2;           /* __italicized text__ */
+    --bold-color: #FFFFFFB2;              /* **bolded text** */
     --highlight-text-color: #d8dadb ;   /* highlighted text color */
     --highlighter: #3b5e39;             /* highlighter color */
     --background: #26272a;              /* main page background */
     --sidebar-background: #1e1e1e;      /* sidebar background */
-    --sidebar-text: #c3bca8;            /* sidebar text  */
-    --page-heading: #F4B288;            /* Page Title (i.e. roam/css) */
-    --daily-heading: #F4B288;           /* Daily Notes date heading */
-    --headings: #da844f;                /* h1, h2, h3 */
+    --sidebar-text: #FFFFFFB2;            /* sidebar text  */
+    --page-heading: #FFFFFFB2;            /* Page Title (i.e. roam/css) */
+    --daily-heading: #FFFFFFB2;           /* Daily Notes date heading */
+    --headings: #FFFFFFB2;                /* h1, h2, h3 */
     --bullets: #394b59;                 /* bullet color */
-    --closed-bullets: #b49d7d;          /* closed bullet color */
-    --references: #b49d7d;              /* reference underline color */
-    --block-reference-text: #b49d7d;    /* block reference color */
-    --namespaces: #65bf38;              /* Namespace/color (win: ctrl+c ctrl+L) or (mac: cmd+c cmd+L) */
+    --closed-bullets: #FFFFFF7C;          /* closed bullet color */
+    --references: #A3B47D;              /* reference underline color */
+    --block-reference-text: #A3B47D;    /* block reference color */
+    --namespaces: #1CD247;              /* Namespace/color (win: ctrl+c ctrl+L) or (mac: cmd+c cmd+L) */
     --all-pages-mentions: #F79A18;      /* mentions pill on ALl Pages */
     --cursor: #FFFFFF;                  /* cursor color */
     /* ICON COLORS */ 
-    --icons: #75c6a3;                   /* icons color */
-    --icons-hover: #00f800;             /* icons hover color */
+    --icons: #13744c;                   /* icons color */
+    --icons-hover: #a06427;             /* icons hover color */
     --filter-icon: #FF0000;             /* filter icon color */
-    /* FONT SIZES */             
+    /* FONT SIZES */
     --page-head-font-size: 36px;          /* page heading */
-    --h1-font-size: 1.8em;                /* h1 size */
-    --h2-font-size: 1.4em;                /* h2 size */
+    --h1-font-size: 2em;                /* h1 size */
+    --h2-font-size: 1.6em;                /* h2 size */
     --h3-font-size: 1.2em;                /* h3 size */
     /* DROPDOWN MENU */
-    --dropdown-menu-text: #da844f;      /* Text color in dropdown menus */
+    --dropdown-menu-text: #DAA44F;      /* Text color in dropdown menus */
+    
 }
 
 /*////////////////////////////////*/
@@ -56,10 +60,16 @@
      max-width: 680px;
 }
 
-*/
-.roam-block {
+
+.roam-block { // this is making empty blocks wrong height
     min-height: calc(1em + 8px);
 }
+*/
+
+/* Global Font style */
+div {
+    font-family: var(--global-font) !important;
+  }
 
 
 /* Table Cell sizing */
