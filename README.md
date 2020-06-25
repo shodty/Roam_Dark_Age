@@ -18,7 +18,7 @@ This works by linking to an outside .css file, actually located [here](https://s
 
 If you do in fact want to manipulate the code, just [navigate to the source .css file](https://shodty.github.io/Dark_Age.css) manually, copy it, and paste it all into your roam/css page. 
 
-Alternatively, to further customize, you can actually just add your own rules below the :root {} variables, and it will supercede everything before it if it is targeted with appropriate specificity/importance.
+Alternatively, to further customize, you can actually just add your own rules below the :root {}, and it will supercede everything before it if it is targeted with appropriate specificity/importance.
 
 How to setup your roam/css page!
 [Applying custom themes in Roam Research](https://www.youtube.com/watch?v=UY-sAC2eGyI)
