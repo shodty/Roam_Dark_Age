@@ -1,6 +1,8 @@
 # Dark Age
 
-This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired.
+This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired!
+
+06.24.20 - updated to variable system with .css import. Added clearer instructions for implementation and customization.
 
 
 # Instructions for Installation
