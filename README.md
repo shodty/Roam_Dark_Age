@@ -20,7 +20,8 @@ If you do in fact want to manipulate the code, just [navigate to the source .css
 
 Alternatively, to further customize, you can actually just add your own rules below the :root {}, and it will supercede everything before it if it is targeted with appropriate specificity/importance.
 
-How to setup your roam/css page!
+### How to setup your roam/css page!
+
 [Applying custom themes in Roam Research](https://www.youtube.com/watch?v=UY-sAC2eGyI)
 
 
