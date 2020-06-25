@@ -2,7 +2,7 @@
 
 This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired!
 
-* 06.24.20
+###### 06.24.20
     * updated to variable system for easily customizing theme colors
     * updated to importation of .css file from https://shodty.github.io/Dark_Age.css
     * added clearer instructions for implementation and customization.
