@@ -31,6 +31,7 @@ Another method is using the [Stylus](https://chrome.google.com/webstore/detail/s
 # Variables for Customization
 
 Both options allow for customizing colors by changing the color values included at the top of the file. I did my best to comment everything with what exactly it will shift.
+
 ![](Images/Variables.png)
 
 Please feel free to reach out if you have any questions/suggestions/requests!
