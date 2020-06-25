@@ -2,7 +2,7 @@
 
 This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired!
 
-###### 06.24.20
+##### 06.24.20
 * updated to variable system for easily customizing theme colors
 * updated to importation of .css file from https://shodty.github.io/Dark_Age.css
 * added clearer instructions for implementation and customization.
@@ -14,7 +14,11 @@ This is the theme I developed for myself, as I tend to work late at night and pr
 ## Option #1:
 [Copy the CSS from here!](https://github.com/shodty/Roam_Dark_Age/blob/master/Dark_Age_of_Roam.css) and paste it into your roam/css page. 
 
-This works by linking to an outside .css file, actually located [here](https://shodty.github.io/Dark_Age.css) to handle all the styling, as it keeps the roam/css page much cleaner/faster. If you do in fact want to manipulate the code, just [navigate to the source .css file](https://shodty.github.io/Dark_Age.css) manually, copy it, and paste it all into your roam/css page. Alternatively, to further customize, you can actually just add your own rules below the :root {} variables, and it will supercede everything before it if it is targeted with appropriate specificity/importance.
+This works by linking to an outside .css file, actually located [here](https://shodty.github.io/Dark_Age.css) to handle all the styling, as it keeps the roam/css page much cleaner/faster. 
+
+If you do in fact want to manipulate the code, just [navigate to the source .css file](https://shodty.github.io/Dark_Age.css) manually, copy it, and paste it all into your roam/css page. 
+
+Alternatively, to further customize, you can actually just add your own rules below the :root {} variables, and it will supercede everything before it if it is targeted with appropriate specificity/importance.
 
 How to setup your roam/css page!
 [Applying custom themes in Roam Research](https://www.youtube.com/watch?v=UY-sAC2eGyI)
