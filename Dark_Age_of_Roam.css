@@ -1,0 +1,41 @@
+@import url('https://shodty.github.io/Dark_Age.css');
+
+:root {
+    /* GLOBAL FONT */
+  	--global-font: "Inter", sans-serif;  /* Global font (will granulate soon) */
+    /* TEXT COLORS */
+    --page-links: #D5A979;              /* [[Page Link]] */
+    --attributes-color: #9CBB8A;        /* Attribute:: */
+    --external-links: #53A6C8;          /* https://www.google.com */
+    --links-hover: #EE8443;             /* hover color of all links */
+    --hashtags: #FFFFFF84;                /* #hashtag #[[hash tags]] */
+    --body-text: #FFFFFFB2;             /* general body text */
+    --italics-color: #FFFFFFB2;           /* __italicized text__ */
+    --bold-color: #FFFFFFB2;              /* **bolded text** */
+    --highlight-text-color: #d8dadb ;   /* highlighted text color */
+    --highlighter: #3b5e39;             /* highlighter color */
+    --background: #26272a;              /* main page background */
+    --sidebar-background: #1e1e1e;      /* sidebar background */
+    --sidebar-text: #FFFFFFB2;            /* sidebar text  */
+    --page-heading: #FFFFFFB2;            /* Page Title (i.e. roam/css) */
+    --daily-heading: #FFFFFFB2;           /* Daily Notes date heading */
+    --headings: #FFFFFFB2;                /* h1, h2, h3 */
+    --bullets: #394b59;                 /* bullet color */
+    --closed-bullets: #FFFFFF7C;          /* closed bullet color */
+    --references: #A3B47D;              /* reference underline color */
+    --block-reference-text: #A3B47D;    /* block reference color */
+    --namespaces: #1CD247;              /* Namespace/color (win: ctrl+c ctrl+L) or (mac: cmd+c cmd+L) */
+    --all-pages-mentions: #F79A18;      /* mentions pill on ALl Pages */
+    --cursor: #FFFFFF;                  /* cursor color */
+    /* ICON COLORS */ 
+    --icons: #13744c;                   /* icons color */
+    --icons-hover: #a06427;             /* icons hover color */
+    --filter-icon: #FF0000;             /* filter icon color */
+    /* FONT SIZES */
+    --page-head-font-size: 36px;          /* page heading */
+    --h1-font-size: 2em;                /* h1 size */
+    --h2-font-size: 1.6em;                /* h2 size */
+    --h3-font-size: 1.2em;                /* h3 size */
+    /* DROPDOWN MENU */
+    --dropdown-menu-text: #DAA44F;      /* Text color in dropdown menus */
+}
