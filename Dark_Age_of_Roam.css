@@ -1,6 +1,6 @@
 :root {
     /* GLOBAL FONT */
-  	--global-font: 'Inter', sans-serif;   /* Global font (will granulate soon) */
+    --global-font: 'Inter', sans-serif;   /* Global font (will granulate soon) */
     /* GLOBAL WIDTH FOR BLOCKS */
     --reduce-padding-right: 568px;        /* DEFAULT 568px;  Increase these two padding values to increase */
     --reduce-padding-left: 1032px;        /* DEFAULT 1032px; the global width of your blocks on the page */
