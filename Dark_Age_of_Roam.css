@@ -1,27 +1,28 @@
-@import url('https://shodty.github.io/Dark_Age.css');
-
 :root {
     /* GLOBAL FONT */
-  	--global-font: "Inter", sans-serif;  /* Global font (will granulate soon) */
-    /* TEXT COLORS */
+  	--global-font: 'Inter', sans-serif;   /* Global font (will granulate soon) */
+    /* GLOBAL WIDTH FOR BLOCKS */
+    --reduce-padding-right: 568px;        /* DEFAULT 568px;  Increase these two padding values to increase */
+    --reduce-padding-left: 1032px;        /* DEFAULT 1032px; the global width of your blocks on the page */
+  	/* TEXT COLORS */
     --page-links: #D5A979;              /* [[Page Link]] */
-    --attributes-color: #9CBB8A;        /* Attribute:: */
+    --attributes-color: #CEA2A1;        /* Attribute:: */
     --external-links: #53A6C8;          /* https://www.google.com */
     --links-hover: #EE8443;             /* hover color of all links */
-    --hashtags: #FFFFFF84;                /* #hashtag #[[hash tags]] */
+    --hashtags: #FFFFFF84;              /* #hashtag #[[hash tags]] */
     --body-text: #FFFFFFB2;             /* general body text */
-    --italics-color: #FFFFFFB2;           /* __italicized text__ */
-    --bold-color: #FFFFFFB2;              /* **bolded text** */
+    --italics-color: #FFFFFFB2;         /* __italicized text__ */
+    --bold-color: #FFFFFFB2;            /* **bolded text** */
     --highlight-text-color: #d8dadb ;   /* highlighted text color */
     --highlighter: #3b5e39;             /* highlighter color */
     --background: #26272a;              /* main page background */
-    --sidebar-background: #1e1e1e;      /* sidebar background */
-    --sidebar-text: #FFFFFFB2;            /* sidebar text  */
-    --page-heading: #FFFFFFB2;            /* Page Title (i.e. roam/css) */
-    --daily-heading: #FFFFFFB2;           /* Daily Notes date heading */
-    --headings: #FFFFFFB2;                /* h1, h2, h3 */
+    --sidebar-background: #1E1E1E;      /* sidebar background */
+    --sidebar-text: #FFFFFFB2;          /* sidebar text  */
+    --page-heading: #FFFFFFB2;          /* Page Title (i.e. roam/css) */
+    --daily-heading: #FFFFFFB2;         /* Daily Notes date heading */
+    --headings: #FFFFFFB2;              /* h1, h2, h3 */
     --bullets: #394b59;                 /* bullet color */
-    --closed-bullets: #FFFFFF7C;          /* closed bullet color */
+    --closed-bullets: #FFFFFF7C;        /* closed bullet color */
     --references: #A3B47D;              /* reference underline color */
     --block-reference-text: #A3B47D;    /* block reference color */
     --namespaces: #1CD247;              /* Namespace/color (win: ctrl+c ctrl+L) or (mac: cmd+c cmd+L) */
@@ -32,10 +33,22 @@
     --icons-hover: #a06427;             /* icons hover color */
     --filter-icon: #FF0000;             /* filter icon color */
     /* FONT SIZES */
-    --page-head-font-size: 36px;          /* page heading */
-    --h1-font-size: 2em;                /* h1 size */
-    --h2-font-size: 1.6em;                /* h2 size */
-    --h3-font-size: 1.2em;                /* h3 size */
+    --main-font-size: 1em;                /* DEFAULT 1em. Can change to px, e.g. 12px, or minor increments like 1.01em */
+  	--page-head-font-size: 36px;          /* DEFAULT 36px. page heading */
+    --h1-font-size: 2em;                  /* DEFAULT 2em. h1 size */
+    --h2-font-size: 1.6em;                /* DEFAULT 1.6em. h2 size */
+    --h3-font-size: 1.2em;                /* DEFAULT 1.2em. h3 size */
     /* DROPDOWN MENU */
-    --dropdown-menu-text: #DAA44F;      /* Text color in dropdown menus */
+    --dropdown-menu-background: #464545; /* Dropdown menu background color */
+    --dropdown-menu-highlight: #3e3d3d;  /* Dropdown menu item highlight */
+    --dropdown-menu-text: #FFFFFFB2;       /* Text color in dropdown menus */
+    --dropdown-newpage: #1AD546;
+    /* SEARCH BAR */
+    --search-bar-background: #26272a;
+    --search-bar-text: #FFFFFF;
+    /* KANBAN CARD COLORS */
+    --kanban-main-background: #2b2a2a;
+    --kanban-column-background: #2b2a2a;
+    --kanban-card-background: #5959591c;
+    --kanban-text-hover: #00ee6b;
 }
