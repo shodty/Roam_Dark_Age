@@ -38,6 +38,7 @@
     --h1-font-size: 2em;                  /* DEFAULT 2em. h1 size */
     --h2-font-size: 1.6em;                /* DEFAULT 1.6em. h2 size */
     --h3-font-size: 1.2em;                /* DEFAULT 1.2em. h3 size */
+    --sidebar-h1-size: 26px;			  /* DEFAULT 26px. sidebar page headings */
     /* DROPDOWN MENU */
     --dropdown-menu-background: #464545; /* Dropdown menu background color */
     --dropdown-menu-highlight: #3e3d3d;  /* Dropdown menu item highlight */
