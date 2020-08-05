@@ -32,7 +32,7 @@ Alternatively, to further customize, you can actually just add your own rules be
 
 
 ## Option #2:
-Another method is using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Chrome Extension to override the page css. If you are using that method, [copy the CSS from here](https://github.com/shodty/Roam_Dark_Age/blob/master/STYLUS/Roam_Dark_Age.css) and paste it into Stylus, and set it up to apply to Roam Research urls.
+Another method is using the [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) Chrome Extension to override the page css. If you are using that method, [copy the CSS from here](https://shodty.github.io/Dark_Age.css) and paste it into Stylus, and set it up to apply to Roam Research urls.
 
 # Variables for Customization
 
