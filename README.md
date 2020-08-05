@@ -2,6 +2,12 @@
 
 This is the theme I developed for myself, as I tend to work late at night and prefer dark themes, so I figured I'd go ahead and share it should it be desired!
 
+##### 08.05.20
+* added customization for global width through variables to reduce left/right padding (--reduce-padding-left, --reduce-padding-right)
+* added dropdown menu styling variables
+* added kanban card styling variables
+* lots of minor coloring and font fixes
+
 ##### 06.24.20
 * updated to variable system for easily customizing theme colors
 * updated to importation of .css file from https://shodty.github.io/Dark_Age.css
