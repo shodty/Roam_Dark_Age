@@ -4,7 +4,7 @@
     /* GLOBAL WIDTH FOR BLOCKS */
     --reduce-padding-right: 568px;        /* DEFAULT 568px;  Increase these two padding values to increase */
     --reduce-padding-left: 1032px;        /* DEFAULT 1032px; the global width of your blocks on the page */
-  	/* TEXT COLORS */
+    /* TEXT COLORS */
     --page-links: #D5A979;              /* [[Page Link]] */
     --attributes-color: #CEA2A1;        /* Attribute:: */
     --external-links: #53A6C8;          /* https://www.google.com */
@@ -34,7 +34,7 @@
     --filter-icon: #FF0000;             /* filter icon color */
     /* FONT SIZES */
     --main-font-size: 1em;                /* DEFAULT 1em. Can change to px, e.g. 12px, or minor increments like 1.01em */
-  	--page-head-font-size: 36px;          /* DEFAULT 36px. page heading */
+    --page-head-font-size: 36px;          /* DEFAULT 36px. page heading */
     --h1-font-size: 2em;                  /* DEFAULT 2em. h1 size */
     --h2-font-size: 1.6em;                /* DEFAULT 1.6em. h2 size */
     --h3-font-size: 1.2em;                /* DEFAULT 1.2em. h3 size */
